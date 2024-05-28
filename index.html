@@ -10,13 +10,17 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
         .social-links {
             display: flex;
             justify-content: center;
             list-style: none;
             padding: 0;
+            margin: 20px 0;
             gap: 20px; /* Space between the links */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
         }
         .social-links a {
             text-decoration: none;
@@ -34,6 +38,31 @@
         }
         .profile-link:hover {
             color: #007bff; /* Change this to your preferred hover color */
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            .social-links a {
+                font-size: 1.2em;
+            }
+        }
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 1.2em;
+            }
+            h2 {
+                font-size: 1em;
+            }
+            .social-links {
+                gap: 10px; /* Reduce space between links */
+            }
+            .social-links a {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
