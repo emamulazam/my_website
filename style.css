@@ -31,3 +31,7 @@ body {
 .profile-link:hover {
     color: #007bff; /* Change this to your preferred hover color */
 }
+
+.profile-link span {
+    color: blueviolet; /* Change this to your preferred color */
+}
