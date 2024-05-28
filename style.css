@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px; /* Space between the links */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Change this to your preferred hover color */
+}
+
+.profile-link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.profile-link:hover {
+    color: #007bff; /* Change this to your preferred hover color */
+}
